@@ -18,9 +18,9 @@ El sistema permite gestionar usuarios, artículos, comentarios, etiquetas y cate
 - `comentarios.py`: administración de comentarios.
 - `etiquetas.py`: administración de etiquetas.
 - `categorias.py`: administración de categorías.
-- `Leonexo_Tech_Completo.cypher`: creación de nodos, relaciones y restricciones de la base de datos.
+- `Leonexo_Tech.cypher`: creación de nodos, relaciones y restricciones de la base de datos.
 - `requirements.txt`: bibliotecas necesarias para ejecutar la aplicación.
-- `.env.example`: ejemplo de configuración de la conexión.
+- `.env.ejemplo`: ejemplo de configuración de la conexión.
 - `Proyecto final Blog 338997.pdf`: reporte del proyecto.
 
 ## Requisitos
@@ -32,7 +32,7 @@ El sistema permite gestionar usuarios, artículos, comentarios, etiquetas y cate
 1. Descargar o clonar este repositorio.
 2. Instalar las dependencias:
    `pip install -r requirements.txt`
-3. Crear un archivo `.env` a partir de `.env.example`.
+3. Crear un archivo `.env` a partir de `.env.ejemplo`.
 4. Configurar los datos de conexión a Neo4j en el archivo `.env`.
 5. Preparar la base de datos `blog` y ejecutar los archivos Cypher correspondientes.
 
